@@ -1,0 +1,23 @@
+Package: NBAplayer
+Title: NBA Players Stats Since 1950
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Cunhonghu",
+           family = "Ding",
+           role = c("aut", "cre"),
+           email = "dingcunhonghu@163.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: The package allows you to explore NBA players dataset and has three toy function to play around.
+  The scored_most function allows you to find a scored most player in a certain year.
+  The oldest_player function allows you to find the oldest player in the NBA data for that year. 
+  The all_correlation function allows you to get the correlation matrix for all numeric variables in the data for a year.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
+Imports:
+  dplyr
